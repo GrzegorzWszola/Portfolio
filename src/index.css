@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+  --font-family: 'Poppins', sans-serif;
+
+  --color-bg: #FFF4E0;
+  --color-bg2: #FFBF9B;
+  --color-bg3: #B46060;
+  --color-txt: #4D4D4D;
+  --color-hover: #B46060;
+
+  --gradient-bg:linear-gradient(90deg, rgba(0,255,239,1) 0%, rgba(26,95,122,1) 52%, rgba(0,255,239,1) 100%);
+  --gradient-bg2:linear-gradient(90deg, rgba(26,95,122,1) 0%, rgba(21,152,149,1) 50%, rgba(0,255,239,1) 100%);
+}

@@ -1,0 +1,42 @@
+.portfolio__projects{
+    margin-top: 10rem;
+    color: var(--color-txt);
+}
+
+.portfolio__projects-header h1{
+    font-size: 5rem;
+    color: var(--color-bg3);
+}
+
+.portfolio__projects-header h2{
+    margin-top: -.7rem;
+    font-size: 1.5rem;
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio__projects{
+        margin-top: 8rem;
+    }
+
+    .portfolio__projects-header h1{
+        font-size: 3rem;
+    }
+
+    .portfolio__projects-header h2{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .portfolio__projects{
+        margin-top: 7rem;
+    }
+
+    .portfolio__projects-header h2{
+        font-size: 1rem;
+    }
+
+    .portfolio__projects-header h2{
+        font-size: 0.8rem;
+    }
+}

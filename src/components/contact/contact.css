@@ -1,0 +1,97 @@
+.portfolio__contact {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.portfolio__contact-container{
+    width: 70%;
+    text-align: center;
+    background-color: var(--color-bg3);
+    padding: 2rem 4rem;
+    border-radius: 20px;
+}
+
+.portfolio__contact-container h1{
+    font-size: 5rem;
+    color: var(--color-bg);
+}
+
+.portfolio__contact-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.portfolio__contact-form_input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-family: var(--font-family);
+    color: var(--color-bg3);
+    font-size: 1.2rem;
+}
+
+.porfolio__contact-form_btn{
+    font-family: var(--font-family);
+    color: var(--color-bg3);
+    border-radius: 10px;
+    border: none;
+    width: 30%;
+    height: 50px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.porfolio__contact-form_btn:hover{
+    background-color: var(--color-bg2);
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio__contact{
+        margin-top: 5rem;
+    }
+
+    .portfolio__contact-container{
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .portfolio__contact-container h1{
+        font-size: 3rem;
+    }
+
+    .portfolio__contact-form_input{
+        padding: 2px;
+    }
+
+    .porfolio__contact-form_btn{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .portfolio__contact-form {
+        gap: 10px;
+    }
+
+    .portfolio__contact-form_input {
+        font-size: .6rem;
+    }
+
+    .porfolio__contact-form_btn{
+        width: 100%;
+        font-size: .6rem;
+        height: 20px;
+    }
+
+    .portfolio__contact-container h1{
+        font-size: 2rem;
+    }
+
+    .portfolio__contact-container{
+        padding: 1rem 2rem;
+    }
+}

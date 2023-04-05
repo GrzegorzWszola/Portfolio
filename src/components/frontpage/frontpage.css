@@ -1,0 +1,115 @@
+.portfolio__frontpage{
+    margin: 15rem 0 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.portfolio__frontpage-header h1{
+    font-size: 5rem;
+    color: var(--color-bg3);
+    animation: slideRight 1s ease forwards;
+}
+
+.portfolio__frontpage-header h2{
+    font-size: 1.8rem;
+    color: var(--color-txt);
+}   
+
+.portfolio__frontpage-icons{
+    display: flex;
+    gap: 3rem;
+    margin-top: 1.5rem;
+}
+
+.portfolio__frontpage-icons a{
+    text-decoration: none;
+    color: var(--color-bg3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    font-size: 2rem;
+    border: 2px solid var(--color-bg3);
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+.portfolio__frontpage-icons a:hover{
+    background-color: var(--color-bg3);
+    color: var(--color-bg);
+}
+
+.portfolio__frontpage-gif{
+    margin-right: 5rem;
+    transform: scaleX(-1);
+}
+
+.portfolio__frontpage-gif img{
+    transform: scale(1.4);
+}
+
+@media screen and (max-width: 1700px) {
+    .portfolio__frontpage-gif img{
+        transform: scale(1);
+    }
+
+    .portfolio__frontpage-gif {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .portfolio__frontpage-header h1{
+        font-size: 3rem
+    }
+
+    .portfolio__frontpage-header h2{
+        font-size: 1.2rem
+    }
+
+    .portfolio__frontpage-gif{
+        transform: translateX(-1);
+        margin: 0;
+    }
+
+    .portfolio__frontpage-gif img{
+        width: 300px;
+        padding: 0;
+    }
+    
+    .portfolio__frontpage{
+        margin-top:4rem;
+        gap: 20px;
+    }
+
+    .portfolio__frontpage-icons{
+        transform: scale(0.8);
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .portfolio__frontpage{
+        margin: 2rem 1rem 0 1rem;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .portfolio__frontpage-icons{
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 300px){
+    .portfolio__frontpage-gif img{
+        transform: scale(.8);
+        margin: 0;
+    }
+
+    .portfolio__frontpage-header h1{
+        font-size: 2rem;
+    }
+}

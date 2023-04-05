@@ -1,0 +1,40 @@
+.portfolio__footer{
+    margin: 5rem 0 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+
+.portfolio__footer-links {
+    display: flex;
+    gap: 20px;
+}
+
+.portfolio__footer a{
+    text-decoration: none;
+    color: var(--color-txt);
+}
+
+.portfolio__footer a:hover{
+    color: var(--color-bg3);
+}
+
+.portfolio__footer-credits a{
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio__footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    .portfolio__footer {
+        
+        font-size: .8rem;
+    }
+}

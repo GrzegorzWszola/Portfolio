@@ -1,0 +1,83 @@
+.portfolio__aboutme{
+    margin-top: 20rem;
+    margin-bottom: 2rem;
+}
+
+.portfolio__aboutme p{
+    font-size: 1.2rem;
+    color: var(--color-txt);
+}
+
+.portfolio__aboutme-header{
+    color: var(--color-bg3);
+    font-size: 4rem;
+}
+
+.portfolio__aboutme-text{
+    display: flex;
+    margin-top: 2rem;
+    width: 100%;
+    gap: 2rem;
+}
+
+.portfolio__aboutme-text_basicinfo{
+    width: 180%;
+}
+
+.header{
+    color: var(--color-bg3);
+    font-size: 3rem;
+}
+
+.basicinfo-sectionheader{
+    font-size: 1.5rem;
+    color: var(--color-txt);
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio__aboutme{
+        margin-top: 7rem;
+    }
+
+    .portfolio__aboutme-header h1{
+        font-size: 3rem;
+    }
+
+    .header{
+        font-size: 2.5rem;
+    }
+
+    .portfolio__aboutme p{
+        font-size: 1.2rem;
+    }
+    
+    .basicinfo-sectionheader{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    
+
+    .portfolio__aboutme p{
+        font-size: 1rem;
+    }
+
+    .basicinfo-sectionheader{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .portfolio__aboutme-text{
+        flex-direction: column;
+        width: 50%;
+        margin-left: 1rem;
+        font-size: 0.7rem;
+        margin-right: 0;
+    }
+
+    .portfolio__aboutme-header h1{
+        text-align: center;
+    }
+}
