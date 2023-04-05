@@ -16,6 +16,20 @@ body{
   color: var(--color-bg3);
 }
 
+::-webkit-scrollbar {
+  width: 15px;
+  margin-right: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #FFF4E0;;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #B46060;
+  border-radius: 20px;
+}
+
 @keyframes slideRight{
   from{
       transform: translateX(-100px);
